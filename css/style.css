@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(50deg, #F073C7, #FC6A96);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #fff;
+    width: 810px;
+    height: 520px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 15px 15px 15px  #FC6A96;
+}
+
+.nav, .nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ui, .nav-text {
+    color: #777;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.dif {
+    color: #444;
+    font-weight: 500;
+}
+
+.title {
+    width: 320px;
+    font-size: 10px;
+}
+
+.title p {
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.form {
+    width: 215px;
+}
+
+.user-name-container input {
+    border: 1px solid #F073C7;
+}
+
+input, textarea {
+    height: 33px;
+    width: 100%;
+    margin: 5px;
+    padding: 2px 5px;
+    font-size: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 60px;
+}
+
+.login input {
+    background: linear-gradient(50deg, #F073C7, #FC6A96);
+    border: none;
+    margin-top: 5px;
+    color: #fff;
+    box-shadow: 1px 1px 5px #FC6A96;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 7px;
+    height: 20px;
+    color: #999;
+}
+
+.terms {
+    display: flex;
+    width: 150px;
+}
+
+.terms-text {
+    margin: 0px 5px;
+}
+
+.copy {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+.twitter, .be, .insta, .word, .facebook {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #999;
+    margin: 10px;
+}
